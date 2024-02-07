@@ -8,12 +8,14 @@ body {
     background-image: url('../Flower Asset/pngwing\ 10.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    min-width: 1920px;
 }
 
 nav {
 
     display: flex;
     justify-content: space-between;
+
 
 }
 
@@ -35,14 +37,146 @@ nav {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
+
 }
 
 .primary-btn {
-    border-radius: 5px;
+    border-radius: 8px;
     background: #E55473;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
     padding: 20px 40px;
+    border: none;
 }
 
+/* main >> section 1 */
+
+.heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+.about {
+    margin: auto;
+    width: 1920px;
+}
+
+.text-1 {
+    text-align: center;
+    margin-top: 2px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+a {
+    color: #272727;
+}
+
+/* flower related style */
+.flowers {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 1920px;
+}
+
+.flower1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 70px 70px 0px 70px;
+}
+
+.flower2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 70px 70px 0px 70px;
+}
+
+.flower3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 70px 70px 0px 70px;
+}
+
+
+
+.flower img {
+    width: 464px;
+    height: 538px;
+}
+
+/* main >> section 2 */
+
+.icons {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 170px;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.sec-2-details {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.details {
+    margin: auto;
+    width: 1920px;
+}
+
+/* main >> section 3 */
+
+.sec {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    min-width: 1920px;
+    margin-top: 120px;
+    padding: 100px 400px;
+
+}
+
+.sec-3 {
+    display: flex;
+    gap: 200px;
+    justify-content: space-around;
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.off {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
