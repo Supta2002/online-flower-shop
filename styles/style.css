@@ -64,6 +64,7 @@ nav {
 .about {
     margin: auto;
     width: 1920px;
+    margin-top: 150px;
 }
 
 .text-1 {
@@ -178,5 +179,78 @@ a {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
+    font-weight: 400;
+}
+
+/* main >> section 4 */
+
+.sec-4-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.sec-4-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+
+.sec-4-flowers {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.sec-4 {
+    width: 1920px;
+    margin: auto;
+    padding: 0px;
+}
+
+/* main >> section 5 */
+
+.sec-5 {
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 1440px;
+    margin-top: 120px;
+    border-radius: 8px;
+}
+
+.sec-5-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.sec-5-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sec-5-container {
+    padding: 120px 300px;
+    text-align: center;
+}
+
+.sec-5-container>input {
+    border-radius: 8px;
+    background: #FFF;
+    width: 600px;
+    height: 64px;
+    padding: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
     font-weight: 400;
 }
